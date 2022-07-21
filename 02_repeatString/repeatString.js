@@ -1,5 +1,8 @@
 const repeatString = function (str, times) {
-    return str.repeat(times)
+    if (times >= 0)
+        return str.repeat(times)
+    else
+        return "ERROR"
 };
 
 // Do not edit below this line
